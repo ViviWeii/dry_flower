@@ -1,0 +1,41 @@
+@media screen and (max-width: 768px){
+    .index_img h5{
+        position: absolute;
+        top: 180px;
+        right: 50px;
+        font-size: 1.3rem;
+        border-bottom: 3px solid #564c61;
+    }
+
+    .index_img img{
+        max-width:100%;
+        height: 450px;
+    }
+
+    .index_news img{
+        max-width: 100%;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .index_news .card-body{
+        margin-left: 25px;
+    }
+
+    .about_me .about-img img{
+        max-width: 100%;
+        display: block;
+        margin: auto;
+    }
+
+    .about_me .about-logo {
+        clear: both;
+    }
+    .about_me .about-logo img{
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .connect_us .connect_name{
+        margin-bottom: 25px;
+    }
+}
